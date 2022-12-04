@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(2, 0, 55);
+    color: white;
+    padding: 5px;
+    margin-bottom: 20px;
+
+}
+span{
+    background-color: rgb(40, 40, 40);
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+   
+
+}
+p{
+    color: black;
+    text-align: center;
+    padding: 10%;
+}
+span:hover{
+    background-color: rgb(149, 149, 149);
+
+
+}
+h3{
+    text-align: center;
+}
+.citation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+    background-color: darkgray;
+    height: 300px;
+    border-radius: 10px;
+
+}
+.titre{
+    width: 100%;
+    height: 15%;
+    background-color: rgb(88, 88, 88);
+    border-radius:10px ;
+
+}
